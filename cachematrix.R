@@ -3,6 +3,12 @@
 
 ## Write a short comment describing this function
 
+## makeCacheMatrix creates a list with four separate functions
+## set() lets the user to create a matrix
+## get() retrieves the stored matrix and prints
+## setInverse() lets the user to set the inverse
+## getInverse() lets the inverse to be printed from the cache
+
 makeCacheMatrix <- function(x = matrix()) {
 
         myMatrixInverse <- NULL
@@ -27,6 +33,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+## cacheSolve verifies if there is a cached solution then creates a 
+## solution if the matrix has changed or there was no solution cached
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
